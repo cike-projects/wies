@@ -11,6 +11,9 @@
     <modules>
         <module>example</module>
         <module>wies-common-starter</module>
+        <module>wies-gateway-starter</module>
+        <module>wies-boot-dependencies</module>
+        <module>example/spring-cloud-webmvc-nacos</module>
     </modules>
 
     <properties>
