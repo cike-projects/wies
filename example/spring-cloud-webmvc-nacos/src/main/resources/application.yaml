@@ -1,0 +1,12 @@
+server:
+  shutdown: graceful
+  error:
+    whitelabel:
+      enabled: false
+spring:
+  application:
+    name: spring-cloud-webmvc-nacos
+  profiles:
+    active: local
+  lifecycle:
+    timeout-per-shutdown-phase: 10s

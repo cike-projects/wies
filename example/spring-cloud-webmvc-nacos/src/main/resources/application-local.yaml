@@ -1,0 +1,11 @@
+server:
+  port: 29000
+spring:
+  cloud:
+    nacos:
+      discovery:
+        namespace: b4575b2f-bfbf-45fa-9c6c-0b03ec751aa4
+        server-addr: nacostest.shurongdai.cn:80
+        group: LOCAL_GROUP
+        username: nacos-test
+        password: br2021
